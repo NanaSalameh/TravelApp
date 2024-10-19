@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Travel App Planner</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Travel App Planner</h1>
+        <form id="t-form">
+            <label for="location">Destinations:</label>
+            <input type="text" id="destination" name="destination" placeholder="Enter the destination" required>
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="s-date" name="start-date" required>
+            <label for="end-date">End Date:</label>
+            <input type="date" name="end-date" id="e-date" required>
+            <button type="submit">Get trip</button>
+        </form>
+        <div id="t-information"></div>
+    </div>
+</body>
+</html>
